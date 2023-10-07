@@ -104,7 +104,8 @@ a {
         gap: 10px;
         position: absolute;
         top: 60px;
-        left: 244px;  
+        left: 244px; 
+        cursor: pointer; 
     }
 
     main {
@@ -123,7 +124,7 @@ a {
             .product {
                 width: 232px;
                 height: 380px;
-                background: #7e7e7e8c;
+                background: #F98329;
                 display: flex;
                 flex-direction: column;
                 border-radius: 8px;
@@ -131,6 +132,7 @@ a {
                 transition: 200ms;
 
                 &_img {
+                    margin-top: 10px;
                     img {
                         width: 232px;
                     }
@@ -166,7 +168,7 @@ a {
             }
 
             .product:hover {
-                box-shadow: 0 0 15px 5px #7e7e7e8c;
+                box-shadow: 0 0 15px 5px #F98329;
                 transition: 200ms;
             }
         }
@@ -181,15 +183,16 @@ a {
 
             .product_pc {
                 width: 232px;
-                height: 380px;
-                background: #a76d1095;
+                height: 450px;
+                background: #005BFF;
                 display: flex;
                 flex-direction: column;
                 border-radius: 8px;
                 overflow: hidden;
 
                 &_img {
-                    padding: 20px 0 10px 0;
+                    height: 310px;
+                    background: white;
                     img {
                         width: 232px;
                     }
@@ -225,7 +228,7 @@ a {
             }
             
             .product_pc:hover {
-                box-shadow: 0 0 15px 5px #a76d10;
+                box-shadow: 0 0 15px 5px #005BFF;
                 transition: 200ms;
             }
         }

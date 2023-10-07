@@ -98,6 +98,7 @@ a {
   position: absolute;
   top: 60px;
   left: 244px;
+  cursor: pointer;
 }
 .container main {
   width: 1440px;
@@ -115,12 +116,15 @@ a {
 .container main .market_phone .product {
   width: 232px;
   height: 380px;
-  background: rgba(126, 126, 126, 0.5490196078);
+  background: #F98329;
   display: flex;
   flex-direction: column;
   border-radius: 8px;
   overflow: hidden;
   transition: 200ms;
+}
+.container main .market_phone .product_img {
+  margin-top: 10px;
 }
 .container main .market_phone .product_img img {
   width: 232px;
@@ -145,7 +149,7 @@ a {
   text-decoration: line-through;
 }
 .container main .market_phone .product:hover {
-  box-shadow: 0 0 15px 5px rgba(126, 126, 126, 0.5490196078);
+  box-shadow: 0 0 15px 5px #F98329;
   transition: 200ms;
 }
 .container main .market_pc {
@@ -158,15 +162,16 @@ a {
 }
 .container main .market_pc .product_pc {
   width: 232px;
-  height: 380px;
-  background: rgba(167, 109, 16, 0.5843137255);
+  height: 450px;
+  background: #005BFF;
   display: flex;
   flex-direction: column;
   border-radius: 8px;
   overflow: hidden;
 }
 .container main .market_pc .product_pc_img {
-  padding: 20px 0 10px 0;
+  height: 310px;
+  background: white;
 }
 .container main .market_pc .product_pc_img img {
   width: 232px;
@@ -191,6 +196,6 @@ a {
   text-decoration: line-through;
 }
 .container main .market_pc .product_pc:hover {
-  box-shadow: 0 0 15px 5px #a76d10;
+  box-shadow: 0 0 15px 5px #005BFF;
   transition: 200ms;
 }/*# sourceMappingURL=style.css.map */
