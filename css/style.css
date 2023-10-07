@@ -47,7 +47,7 @@ a {
   height: 42px;
   display: flex;
   align-items: center;
-  border: 2px solid #005bff;
+  border: 2px solid #3333CC;
   border-radius: 5px;
   overflow: hidden;
 }
@@ -65,9 +65,10 @@ a {
   width: 75px;
   height: 100%;
   border: none;
-  background: #005bff;
-  color: white;
+  background: #EAEAF9;
+  color: #3333CC;
   font-size: 16px;
+  font-weight: 500;
 }
 .container header .account {
   display: flex;
@@ -76,6 +77,7 @@ a {
 .container header .account_element {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 .container header .account .icon {
   width: 24px;
@@ -124,7 +126,7 @@ a {
   transition: 200ms;
 }
 .container main .market_phone .product_img {
-  margin-top: 10px;
+  margin-top: 5px;
 }
 .container main .market_phone .product_img img {
   width: 232px;
@@ -132,19 +134,19 @@ a {
 .container main .market_phone .product_titel p {
   font-size: 17px;
   font-weight: 600;
-  text-align: center;
+  padding: 10px 0 0 10px;
 }
 .container main .market_phone .product_discount p {
-  margin-top: 15px;
+  margin-top: 9px;
   font-size: 17px;
   font-weight: 700;
-  text-align: center;
+  padding: 10px 0 0 10px;
 }
 .container main .market_phone .product_price p {
-  margin-top: 10px;
+  margin-top: 0px;
   font-size: 16px;
   font-weight: 600;
-  text-align: center;
+  padding: 10px 0 0 10px;
   color: #101010;
   text-decoration: line-through;
 }
@@ -163,7 +165,7 @@ a {
 .container main .market_pc .product_pc {
   width: 232px;
   height: 450px;
-  background: #005BFF;
+  background: #F98329;
   display: flex;
   flex-direction: column;
   border-radius: 8px;
@@ -179,23 +181,23 @@ a {
 .container main .market_pc .product_pc_titel p {
   font-size: 17px;
   font-weight: 600;
-  text-align: center;
+  padding: 10px 0 0 10px;
 }
 .container main .market_pc .product_pc_discount p {
-  margin-top: 15px;
+  margin-top: 10px;
   font-size: 17px;
   font-weight: 700;
-  text-align: center;
+  padding: 10px 0 0 10px;
 }
 .container main .market_pc .product_pc_price p {
-  margin-top: 10px;
+  margin-top: 0px;
   font-size: 16px;
   font-weight: 600;
-  text-align: center;
+  padding: 10px 0 0 10px;
   color: #101010;
   text-decoration: line-through;
 }
 .container main .market_pc .product_pc:hover {
-  box-shadow: 0 0 15px 5px #005BFF;
+  box-shadow: 0 0 15px 5px #F98329;
   transition: 200ms;
 }/*# sourceMappingURL=style.css.map */

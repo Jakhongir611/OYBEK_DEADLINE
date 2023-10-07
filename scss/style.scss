@@ -50,7 +50,7 @@ a {
             height: 42px;
             display: flex;
             align-items: center;
-            border: 2px solid #005bff;
+            border: 2px solid #3333CC;
             border-radius: 5px;
             overflow: hidden;
             img{
@@ -69,9 +69,10 @@ a {
                 width: 75px;
                 height: 100%;
                 border: none;
-                background: #005bff;
-                color: white;
+                background: #EAEAF9;
+                color: #3333CC;
                 font-size: 16px;
+                font-weight: 500;
             }
         }
         .account {
@@ -81,6 +82,7 @@ a {
                 // margin: 0 auto;
                 display: flex;
                 flex-direction: column;
+                align-items: center;
             }
             .icon{
                 width: 24px;
@@ -132,7 +134,7 @@ a {
                 transition: 200ms;
 
                 &_img {
-                    margin-top: 10px;
+                    margin-top: 5px;
                     img {
                         width: 232px;
                     }
@@ -142,25 +144,25 @@ a {
                     p {
                         font-size: 17px;
                         font-weight: 600;
-                        text-align: center;
+                        padding: 10px 0 0 10px;
                     }
                 }
 
                 &_discount {
                     p {
-                        margin-top: 15px;
+                        margin-top: 9px;
                         font-size: 17px;
                         font-weight: 700;
-                        text-align: center;
+                        padding: 10px 0 0 10px;
                     }
                 }
 
                 &_price {
                     p {
-                        margin-top: 10px;
+                        margin-top: 0px;
                         font-size: 16px;
                         font-weight: 600;
-                        text-align: center;
+                        padding: 10px 0 0 10px;
                         color: #101010;
                         text-decoration: line-through;
                     }
@@ -184,7 +186,7 @@ a {
             .product_pc {
                 width: 232px;
                 height: 450px;
-                background: #005BFF;
+                background: #F98329;
                 display: flex;
                 flex-direction: column;
                 border-radius: 8px;
@@ -202,25 +204,28 @@ a {
                     p {
                         font-size: 17px;
                         font-weight: 600;
-                        text-align: center;
+                        padding: 10px 0 0 10px;
+                        // text-align: center;
                     }
                 }
 
                 &_discount {
                     p {
-                        margin-top: 15px;
+                        margin-top: 10px;
                         font-size: 17px;
                         font-weight: 700;
-                        text-align: center;
+                        padding: 10px 0 0 10px;
+                        // text-align: center;
                     }
                 }
 
                 &_price {
                     p {
-                        margin-top: 10px;
+                        margin-top: 0px;
                         font-size: 16px;
                         font-weight: 600;
-                        text-align: center;
+                        padding: 10px 0 0 10px;
+                        // text-align: center;
                         color: #101010;
                         text-decoration: line-through;
                     }
@@ -228,7 +233,7 @@ a {
             }
             
             .product_pc:hover {
-                box-shadow: 0 0 15px 5px #005BFF;
+                box-shadow: 0 0 15px 5px #F98329;
                 transition: 200ms;
             }
         }
